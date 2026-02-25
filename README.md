@@ -1,41 +1,26 @@
 # Implementation-of-Transfer-Learning
+
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
-</br>
-</br>
-</br>
+To build an image classification model using transfer learning by leveraging a pre-trained VGG-19 network and fine-tuning it to classify images from a custom dataset into predefined categories.
 
 ## DESIGN STEPS
 ### STEP 1:
-</br>
+Load the pre-trained VGG-19 model with ImageNet weights and modify the final classification layer according to the number of target classes.
+
 
 ### STEP 2:
-</br>
+
+Preprocess the dataset by resizing images to 224×224, normalizing using ImageNet statistics, and loading them using a DataLoader.
+
+
 
 ### STEP 3:
-
-Write your own steps
-<br/>
-
+Train the modified model using a suitable loss function and optimizer, then evaluate its performance on the validation dataset.
 ## PROGRAM
 Include your code here
 ```python
-# Load Pretrained Model and Modify for Transfer Learning
-
-
-
-# Modify the final fully connected layer to match the dataset classes
-
-
-
-# Include the Loss function and optimizer
-
-
-
-
-# Train the model
 
 
 
